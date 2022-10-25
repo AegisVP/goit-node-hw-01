@@ -1,0 +1,29 @@
+{
+	"name": "goit-node-hw-01",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"commander": "^9.4.1",
+		"nanoid": "^4.0.0",
+		"yargs": "^17.6.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	},
+	"scripts": {
+		"start": "node ./src/node/index.js",
+		"dev": "nodemon ./src/node/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AegisVP/goit-node-hw-01.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AegisVP/goit-node-hw-01/issues"
+	},
+	"homepage": "https://github.com/AegisVP/goit-node-hw-01#readme"
+}
